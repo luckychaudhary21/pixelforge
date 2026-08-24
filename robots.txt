@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luckychoudhary21.github.io/pixelforge/sitemap.xml
