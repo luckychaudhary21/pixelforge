@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PixelForge | Website Design & Development Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="#" class="brand">
+        <span class="brand-name">PIXELFORGE</span>
+        <span class="brand-subtitle">WEBSITE DESIGN & DEVELOPMENT</span>
+    </a>
+
+    <nav>
+        <a href="#work">Our Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="nav-contact">Let's Talk</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-tag">
+        <span></span>
+        WEBSITE DESIGN & DEVELOPMENT STUDIO
+    </div>
+
+    <h1>
+        Websites that make
+        <em>people stop.</em>
+    </h1>
+
+    <p class="hero-description">
+        Beautiful, strategic websites designed for businesses,
+        brands and people who want to be remembered.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#work" class="primary-button">
+            Explore Website Styles
+            <span>↗</span>
+        </a>
+
+        <a href="#contact" class="secondary-button">
+            Build My Website
+        </a>
+
+    </div>
+
+    <div class="hero-note">
+        <span>✦</span>
+        Custom design · Mobile responsive · Business focused
+    </div>
+
+</section>
+
+
+<div class="marquee">
+
+    <div class="marquee-track">
+
+        <span>WEBSITES</span>
+        <b>✦</b>
+
+        <span>LANDING PAGES</span>
+        <b>✦</b>
+
+        <span>E-COMMERCE</span>
+        <b>✦</b>
+
+        <span>DIGITAL EXPERIENCES</span>
+        <b>✦</b>
+
+        <span>WEBSITES</span>
+        <b>✦</b>
+
+        <span>LANDING PAGES</span>
+        <b>✦</b>
+
+        <span>E-COMMERCE</span>
+        <b>✦</b>
+
+        <span>DIGITAL EXPERIENCES</span>
+        <b>✦</b>
+
+    </div>
+
+</div>
+
+
+<section class="catalogue" id="work">
+
+    <div class="section-intro">
+
+        <div>
+
+            <p class="eyebrow">
+                THE COLLECTION
+            </p>
+
+            <h2>
+                What are you
+                <em>building?</em>
+            </h2>
+
+        </div>
+
+        <p class="intro-text">
+            Choose a category and explore website styles
+            designed around the way your business works.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <button class="category-card large-card"
+            onclick="openCategory('business')">
+
+            <div class="card-number">01</div>
+
+            <div class="card-icon">◒</div>
+
+            <div class="card-content">
+
+                <span>FOR BRANDS & COMPANIES</span>
+
+                <h3>Business</h3>
+
+                <p>
+                    Corporate websites, agencies,
+                    startups and service businesses.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+        <button class="category-card"
+            onclick="openCategory('lifestyle')">
+
+            <div class="card-number">02</div>
+
+            <div class="card-icon">✦</div>
+
+            <div class="card-content">
+
+                <span>FOR LIFESTYLE BRANDS</span>
+
+                <h3>Lifestyle</h3>
+
+                <p>
+                    Salons, beauty, fashion,
+                    gyms and personal brands.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+        <button class="category-card"
+            onclick="openCategory('hospitality')">
+
+            <div class="card-number">03</div>
+
+            <div class="card-icon">◇</div>
+
+            <div class="card-content">
+
+                <span>FOR HOSPITALITY</span>
+
+                <h3>Hospitality</h3>
+
+                <p>
+                    Restaurants, cafés, hotels,
+                    resorts and experiences.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+        <button class="category-card"
+            onclick="openCategory('property')">
+
+            <div class="card-number">04</div>
+
+            <div class="card-icon">⌂</div>
+
+            <div class="card-content">
+
+                <span>FOR PROPERTY</span>
+
+                <h3>Property</h3>
+
+                <p>
+                    Real estate, architecture,
+                    interiors and construction.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+        <button class="category-card"
+            onclick="openCategory('professional')">
+
+            <div class="card-number">05</div>
+
+            <div class="card-icon">◎</div>
+
+            <div class="card-content">
+
+                <span>FOR PROFESSIONALS</span>
+
+                <h3>Professional</h3>
+
+                <p>
+                    Portfolios, doctors,
+                    consultants and creators.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+        <button class="category-card"
+            onclick="openCategory('commerce')">
+
+            <div class="card-number">06</div>
+
+            <div class="card-icon">□</div>
+
+            <div class="card-content">
+
+                <span>FOR SELLING ONLINE</span>
+
+                <h3>Commerce</h3>
+
+                <p>
+                    E-commerce stores, boutiques,
+                    products and online shops.
+                </p>
+
+            </div>
+
+            <div class="card-arrow">↗</div>
+
+        </button>
+
+
+    </div>
+
+</section>
+
+
+<section class="services" id="services">
+
+    <div class="section-intro">
+
+        <div>
+
+            <p class="eyebrow">
+                WHAT WE DO
+            </p>
+
+            <h2>
+                More than just
+                <em>a pretty website.</em>
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service">
+
+            <span>01</span>
+
+            <h3>Custom Websites</h3>
+
+            <p>
+                Websites designed around your brand,
+                audience and business goals.
+            </p>
+
+        </div>
+
+
+        <div class="service">
+
+            <span>02</span>
+
+            <h3>Landing Pages</h3>
+
+            <p>
+                Focused pages designed to turn
+                visitors into enquiries and customers.
+            </p>
+
+        </div>
+
+
+        <div class="service">
+
+            <span>03</span>
+
+            <h3>E-commerce</h3>
+
+            <p>
+                Clean online stores designed
+                to showcase and sell products.
+            </p>
+
+        </div>
+
+
+        <div class="service">
+
+            <span>04</span>
+
+            <h3>Responsive Design</h3>
+
+            <p>
+                Beautiful experiences across
+                phones, tablets and laptops.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="process" id="process">
+
+    <div class="process-heading">
+
+        <p class="eyebrow">
+            THE PROCESS
+        </p>
+
+        <h2>
+            From idea
+            <em>to online.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="process-list">
+
+        <div class="process-item">
+
+            <strong>01</strong>
+
+            <div>
+
+                <h3>
+                    Tell us about your business
+                </h3>
+
+                <p>
+                    Share your idea, requirements,
+                    style and goals.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <strong>02</strong>
+
+            <div>
+
+                <h3>
+                    Choose your direction
+                </h3>
+
+                <p>
+                    Select a website style that
+                    fits your brand.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <strong>03</strong>
+
+            <div>
+
+                <h3>
+                    We design & build
+                </h3>
+
+                <p>
+                    Your website is designed,
+                    developed and refined.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <strong>04</strong>
+
+            <div>
+
+                <h3>
+                    Go live
+                </h3>
+
+                <p>
+                    Your finished website goes
+                    live and starts working for you.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta" id="contact">
+
+    <p class="eyebrow">
+        HAVE A PROJECT IN MIND?
+    </p>
+
+    <h2>
+        Let's build something
+        <em>worth remembering.</em>
+    </h2>
+
+    <p>
+        Tell us what you need and we'll help you
+        choose the right website for your business.
+    </p>
+
+
+    <div class="contact-buttons">
+
+        <a
+            href="https://wa.me/919045470925"
+            target="_blank"
+            class="cta-button"
+        >
+            WhatsApp Us
+            <span>↗</span>
+        </a>
+
+
+        <a
+            href="mailto:pixelforge111111@gmail.com"
+            class="email-button"
+        >
+            Email Us
+            <span>↗</span>
+        </a>
+
+    </div>
+
+
+    <div class="contact-info">
+
+        <a href="tel:+919045470925">
+            +91 9045470925
+        </a>
+
+        <span>•</span>
+
+        <a href="mailto:pixelforge111111@gmail.com">
+            pixelforge111111@gmail.com
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div>
+
+        <strong>PIXELFORGE</strong>
+
+        <span>
+            Website Design & Development Studio
+        </span>
+
+    </div>
+
+    <p>
+        © 2026 PixelForge. Built with intention.
+    </p>
+
+</footer>
+
+
+</main>
+
+
+<div class="modal" id="categoryModal">
+
+    <div
+        class="modal-overlay"
+        onclick="closeCategory()"
+    ></div>
+
+
+    <div class="modal-box">
+
+        <button
+            class="close-button"
+            onclick="closeCategory()"
+        >
+            ×
+        </button>
+
+
+        <div class="modal-top">
+
+            <p id="modalEyebrow"></p>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalDescription"></p>
+
+        </div>
+
+
+        <div
+            class="website-options"
+            id="websiteOptions"
+        ></div>
+
+
+        <div class="modal-bottom">
+
+            <p>
+                Don't see exactly what you need?
+                <strong>We can build it custom.</strong>
+            </p>
+
+            <a
+                href="#contact"
+                onclick="closeCategory()"
+                class="modal-contact"
+            >
+                Request a Custom Website →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
